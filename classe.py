@@ -10,7 +10,7 @@ class Cliente:
 
     def imprimir(self):
         print("----------------------")
-        print("nome:", self.nome)
+        print("nome:", self.nom e)
         print("anoNascimento:", self.anoNascimento)
         print("sexo:", self.sexo)
         print("saldo:", self.saldo)
@@ -60,5 +60,14 @@ Cliente3.verificar_saldo()
 
 
 
+class exercicio:
+    def __init__(self):
+        print('-')
+
+    def exercicio1():
+        print("resolução do exercicio")
+
+ex = exercicio() 
+ex.exercicio1()
 
 
